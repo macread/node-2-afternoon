@@ -1,1 +1,1 @@
-UPDATE products SET description = ${description} WHERE product_id = ${id}
+UPDATE products SET description = $2 WHERE product_id = $1
